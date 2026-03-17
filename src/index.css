@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;500;600;700&family=Playfair+Display:italic,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-handwriting: "Dancing Script", cursive;
+
+  --color-romantic-pink: #ffd1dc;
+  --color-romantic-pink-light: #ffe4ec;
+  --color-romantic-pink-dark: #ffb7c5;
+}
+
+@layer base {
+  body {
+    @apply bg-romantic-pink-light text-gray-800 selection:bg-romantic-pink-dark selection:text-white;
+  }
+}
+
+.heart-animation {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.glass-card {
+  @apply bg-white/60 backdrop-blur-md border border-white/40 shadow-xl rounded-3xl;
+}
+
