@@ -37,7 +37,7 @@ export const Hero: React.FC<{ onEnter: () => void }> = ({ onEnter }) => {
         className="text-center z-10"
       >
         <h1 className="font-handwriting text-6xl md:text-8xl text-romantic-pink-dark mb-4">
-          Qling <Heart className="inline-block fill-romantic-pink-dark" size={40} /> [Tên người ấy]
+          Qling <Heart className="inline-block fill-romantic-pink-dark" size={40} /> Ndiep
         </h1>
         <p className="font-serif italic text-xl md:text-2xl text-gray-600 mb-12">
           "Nơi tình yêu bắt đầu và kỷ niệm đong đầy..."
