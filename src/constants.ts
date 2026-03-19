@@ -14,14 +14,14 @@ export interface Message {
   timestamp: string;
 }
 
-export const LOVE_START_DATE = '2023-01-01'; // Default start date
+export const LOVE_START_DATE = '2025-01-18'; // Default start date
 
 export const MEMORIES: Memory[] = [
   {
     id: '1',
-    date: '2023-01-01',
+    date: '2025-01-18',
     title: 'Lần đầu gặp gỡ',
-    description: 'Ngày đầu tiên chúng mình chạm mặt nhau tại quán cà phê nhỏ. Ánh mắt ấy đã làm trái tim anh xao xuyến.',
+    description: 'Ngày đầu tiên chúng mình chạm mặt nhau tại lớp học. Ánh mắt ấy đã làm trái tim anh xao xuyến.',
     image: 'https://picsum.photos/seed/love1/800/600',
     category: 'first-meet',
   },
