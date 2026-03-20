@@ -168,7 +168,7 @@ export const MEMORIES: Memory[] = [
     description: '',
     image: 'https://i.ibb.co/Jj7hBbKP/1000066177-2.jpg',
     category: 'first-meet',
-  },
+
     },  {
     id: '22',
     date: '2025-01-18',
