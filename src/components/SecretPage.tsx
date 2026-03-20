@@ -11,7 +11,7 @@ export const SecretPage: React.FC = () => {
 
   const handleUnlock = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === '1234') { // Simple password for demo
+    if (password === '1801') { // Simple password for demo
       setIsLocked(false);
       confetti({
         particleCount: 150,
